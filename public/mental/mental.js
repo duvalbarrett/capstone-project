@@ -6,8 +6,6 @@ const lexaproButton = document.querySelector('.lexapro-button');
 
 const baseURL = 'http://localhost:4400'
 
-let globalId = 1;
-
 
 const xanaxDesc = (event) => {
     axios.get(`${baseURL}/api/drugs`)
