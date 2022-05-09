@@ -1,0 +1,168 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E5CB9F;
+}
+
+header {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(https://robertdebry.com/wp-content/uploads/2018/01/shutterstock_531975694-1024x680.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 155px;
+    text-shadow: 2px 2px black;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    font-size: 0px;
+    background: none;
+    border: none;
+    height: 125px;
+    width: 350px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+    background-image: url(https://www.ipharmd.net/images/medium/tn_blue_caduceus_black_outline.png);
+    background-size:130px;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    display: flex;
+}
+
+.left {
+    position: absolute;
+    width: 50px;
+    top: 155px;
+    bottom: 0px;
+    background-color: #E5CB9F;
+}
+
+.right {
+    position: absolute;
+    width: 50px;
+    right: 0px;
+    top: 155px;
+    bottom: 0px;
+    background-color: #E5CB9F;
+}
+
+
+.all-items-display {
+    color: black;
+    border: none;
+    background-image: url(https://muskoka411.com/wp-content/uploads/2016/05/prescription-drugs1.jpg);
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200px;
+    left: 15%;
+    width: 70%;
+    height: 300px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px 1px black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.all-items-display:hover {
+        transform: scale(1.1);
+        transition: transform .7s;
+        opacity: 80%;
+    }
+
+
+.mental-display {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: black;
+    position: absolute;
+    border: none;
+    display: flex;
+    background-image: url(https://media.istockphoto.com/photos/portrait-of-young-man-holding-his-head-in-pain-picture-id518620598?k=6&m=518620598&s=170667a&w=0&h=r9D2Mmj3JcD3AV_uLF2gvFbDZzCBtik4JSA51qp5xds=);
+    background-size:380px;
+    width: 20%;
+    height: 250px;
+    top: 550px;
+    left: 15%;
+    text-align: center;
+    font-size: 14px;
+    font-style: oblique;
+    font-family: 'Courier New';
+}
+
+.mental-display:hover {
+        transform: scale(1.1);
+        transition: transform .7s;
+        opacity: 80%;
+    }
+
+.heart-display {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: black;
+    border: none;
+    display: flex;
+    position: absolute;
+    background-image: url(https://media.sciencephoto.com/image/f0265215/800wm/F0265215-Man_clutching_his_chest_in_pain.jpg);
+    background-size:375px;
+    width: 20%;
+    height: 250px;
+    top: 550px;
+    left: 40%;
+    text-align: center;
+    font-size: 14px;
+    font-style: oblique;
+    font-family: 'Courier New';
+}
+
+.heart-display:hover {
+        transform: scale(1.1);
+        transition: transform .7s;
+        opacity: 80%;
+    }
+
+.lungs-display {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: black;
+    border: none;
+    display: flex;
+    position: absolute;
+    background-image: url(https://thumbs.dreamstime.com/b/female-patient-receiving-artificial-ventilation-young-hospital-37392887.jpg);
+    background-size: 380px;
+    width: 20%;
+    height: 250px;
+    top: 550px;
+    left: 65%;
+    text-align: center;
+    font-size: 14px;
+    font-style: oblique;
+    font-family: 'Courier New';
+}
+
+.lungs-display:hover {
+        transform: scale(1.1);
+        transition: transform .7s;
+        opacity: 80%;
+    }

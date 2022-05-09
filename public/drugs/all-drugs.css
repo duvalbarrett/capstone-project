@@ -1,0 +1,959 @@
+header {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(https://robertdebry.com/wp-content/uploads/2018/01/shutterstock_531975694-1024x680.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 155px;
+    text-shadow: 2px 2px black;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E5CB9F;
+    overflow-x: hidden;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    font-size: 00px;
+    background: none;
+    border: none;
+    height: 125px;
+    width: 350px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+    background-image: url(https://www.ipharmd.net/images/medium/tn_blue_caduceus_black_outline.png);
+    background-size:130px;
+    background-repeat: no-repeat;
+}
+
+/* Container for left and right sides */
+
+.container {
+    display: flex;
+}
+
+.left {
+    position: absolute;
+    width: 80px;
+    top: 155px;
+    bottom: 0px;
+    left:0px;
+    height: 250%;
+    background-color: #3e2e20;
+}
+
+.right {
+    position: absolute;
+    width: 80px;
+    right: 0px;
+    top: 155px;
+    bottom: 0px;
+    height: 250%;
+    background-color: #3e2e20;
+}
+
+
+/*  Container for the all drug items and heading  */
+
+.all-items-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+    color: white;
+    position: relative;
+    left: -12%;
+    width: 80%;
+    height: 100%;
+    top: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#all-items-shown {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    text-align: center;
+    left: 480px;
+    top:120px;
+    position: absolute;
+    font-family: 'Lucida';
+    font-size: 55px;
+    width: 100%;
+    color: black;
+}
+
+
+
+/* Mental */
+
+
+#xanax-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+.xanax-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#xanax-pic {
+        display: flex;
+        background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/7/LD/NU/AH/133678244/xanax-alprazolam-1000x1000.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#xanax-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.xanax-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.xanax-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+#adderall-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.adderall-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#adderall-pic {
+        display: flex;
+        background-image: url(https://www.medsconsulting.com/wp-content/uploads/2020/10/Adderall-30mg-for-sale-768x768.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#adderall-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 14px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.adderall-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+    
+.adderall-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+
+#ritalin-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.ritalin-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#ritalin-pic {
+        display: flex;
+        background-image: url(https://www.dryspringspharmacy.net/wp-content/uploads/2017/11/Ritalin-bottle.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#ritalin-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 14px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+    
+.ritalin-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+    .ritalin-button:hover {
+        background-color:  gray;
+    }
+
+
+
+
+
+#lexapro-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  #3e2e20;
+    border-radius: 15px;
+}
+
+.lexapro-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#lexapro-pic {
+        display: flex;
+        background-image: url(https://4.bp.blogspot.com/-CxC9tJQYY_s/UbR-bLnIKeI/AAAAAAAAD4Y/uVVUrdQms1g/s1600/ezcitalopram+lexapro+10+mg+box+6-9-2013+8-34-40+AM+593x686.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+    
+#lexapro-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 14px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.lexapro-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.lexapro-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+/* Heart */
+
+
+#lipitor-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 350px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+.lipitor-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#lipitor-pic {
+        display: flex;
+        background-image: url(https://www.youdrugstore.com/pi/lipitor_40mg_300143.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#lipitor-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.lipitor-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.lipitor-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+#carvedilol-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.carvedilol-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#carvedilol-pic {
+        display: flex;
+        background-image: url(https://vetapprovedrx.pharmacy/media/product/938/carvedilol-tablets-3d9.1551761883.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#carvedilol-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.carvedilol-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+    
+.carvedilol-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+
+#coumadin-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.coumadin-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#coumadin-pic {
+        display: flex;
+        background-image: url(https://www.buy-pharma.md/img/cache/9276-Coumadin-Warfarin-5-Mg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#coumadin-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+    
+.coumadin-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.coumadin-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+
+#rosuvastatin-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.rosuvastatin-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#rosuvastatin-pic {
+        display: flex;
+        background-image: url(https://www.henryschein.com/Products/1271589_600x600.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+    
+#rosuvastatin-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.rosuvastatin-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.rosuvastatin-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+
+
+
+#albuterol-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+    bottom:300px;
+}
+
+.albuterol-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#albuterol-pic {
+        display: flex;
+        background-image: url(https://cdn.shopify.com/s/files/1/0996/0350/products/Albuterol-inhalation-Solution-3ml.jpg?v=1526569556);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#albuterol-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.albuterol-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.albuterol-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+#flonase-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+    bottom: 300px;
+}
+
+.flonase-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#flonase-pic {
+        display: flex;
+        background-image: url(https://i5.walmartimages.com/asr/9ed9e1cc-add9-4b6f-978f-d4ec8292693f.28da21d9f252d134926b2b8dd4fece8b.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#flonase-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.flonase-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+    
+.flonase-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+
+#ventolin-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+    bottom:300px;
+}
+
+.ventolin-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#ventolin-pic {
+        display: flex;
+        background-image: url(https://www.pilldoctor.com.gh/wp-content/uploads/2020/09/ventolin_evohaler_100micrograms_-_200_actuations-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#ventolin-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+    
+.ventolin-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+    .ventolin-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+
+#epi-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+    bottom:300px;
+}
+
+.epi-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#epi-pic {
+        display: flex;
+        background-image: url(http://www.trussvilletribune.com/wp-content/uploads/2017/04/epipen-master.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+    
+#epi-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.epi-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.epi-button:hover {
+        background-color: gray;
+    } 

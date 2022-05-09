@@ -1,0 +1,378 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E5CB9F;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(https://robertdebry.com/wp-content/uploads/2018/01/shutterstock_531975694-1024x680.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 155px;
+    text-shadow: 2px 2px black;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    font-size: 0px;
+    background: none;
+    border: none;
+    height: 125px;
+    width: 350px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+    background-image: url(https://www.ipharmd.net/images/medium/tn_blue_caduceus_black_outline.png);
+    background-size:130px;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    display: flex;
+}
+
+.left {
+    position: absolute;
+    width: 80px;
+    top: 155px;
+    left:0px;
+    bottom: 0px;
+    height: 100%;
+    background-color: #E5CB9F;
+}
+
+.right {
+    position: absolute;
+    width: 80px;
+    right: 0px;
+    top: 155px;
+    bottom: 0px;
+    height: 100%;
+    background-color: #E5CB9F;
+}
+
+
+
+.heart-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-start;
+    color: white;
+    position: relative;
+    left: -10%;
+    width: 80%;
+    height: 100%;
+    top: 300px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#heart-heading {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    text-align: center;
+    left: 500px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    width: 100%;
+    color: black;
+    top:125px;
+} 
+ 
+
+
+
+#lipitor-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+.lipitor-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#lipitor-pic {
+        display: flex;
+        background-image: url(https://www.youdrugstore.com/pi/lipitor_40mg_300143.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#lipitor-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 238px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.lipitor-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.lipitor-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+#carvedilol-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.carvedilol-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#carvedilol-pic {
+        display: flex;
+        background-image: url(https://vetapprovedrx.pharmacy/media/product/938/carvedilol-tablets-3d9.1551761883.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#carvedilol-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 238px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.carvedilol-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+    
+.carvedilol-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+
+#coumadin-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.coumadin-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#coumadin-pic {
+        display: flex;
+        background-image: url(https://www.buy-pharma.md/img/cache/9276-Coumadin-Warfarin-5-Mg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#coumadin-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 238px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+    
+.coumadin-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.coumadin-button:hover {
+        background-color: gray;
+    }
+
+
+
+
+
+#rosuvastatin-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.rosuvastatin-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#rosuvastatin-pic {
+        display: flex;
+        background-image: url(https://www.henryschein.com/Products/1271589_600x600.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+    
+#rosuvastatin-desc {
+        position: absolute;
+        background-color:black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.rosuvastatin-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.rosuvastatin-button:hover {
+        background-color: gray;
+    }
+
+

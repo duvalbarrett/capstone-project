@@ -1,0 +1,376 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E5CB9F;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(https://robertdebry.com/wp-content/uploads/2018/01/shutterstock_531975694-1024x680.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 155px;
+    text-shadow: 2px 2px black;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    font-size: 0px;
+    background: none;
+    border: none;
+    height: 125px;
+    width: 350px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+    background-image: url(https://www.ipharmd.net/images/medium/tn_blue_caduceus_black_outline.png);
+    background-size:130px;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    display: flex;
+}
+
+.left {
+    position: absolute;
+    width: 50px;
+    left: 0px;
+    top: 155px;
+    bottom: 0px;
+    background-color: #E5CB9F;
+}
+
+.right {
+    position: absolute;
+    width: 50px;
+    right: 0px;
+    top: 155px;
+    bottom: 0px;
+    background-color: #E5CB9F;
+}
+
+
+.lungs-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-start;
+    color: white;
+    position: relative;
+    left: -12%;
+    width: 80%;
+    height: 100%;
+    top: 300px;
+    text-align: center;
+    font-size: 40px;
+}
+
+ #lungs-heading {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    text-align: center;
+    left: 500px;
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    width: 100%;
+    color: black;
+    top: 125px;
+} 
+
+
+
+
+#albuterol-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.albuterol-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#albuterol-pic {
+        display: flex;
+        background-image: url(https://cdn.shopify.com/s/files/1/0996/0350/products/Albuterol-inhalation-Solution-3ml.jpg?v=1526569556);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#albuterol-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.albuterol-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.albuterol-button:hover {
+        background-color: #E5CB9F
+    }
+
+
+
+
+#flonase-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.flonase-header {
+        position: absolute;
+        font-family:'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#flonase-pic {
+        display: flex;
+        background-image: url(https://i5.walmartimages.com/asr/9ed9e1cc-add9-4b6f-978f-d4ec8292693f.28da21d9f252d134926b2b8dd4fece8b.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#flonase-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.flonase-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+    
+.flonase-button:hover {
+        background-color: #E5CB9F;
+    }
+
+
+
+
+
+#ventolin-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.ventolin-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#ventolin-pic {
+        display: flex;
+        background-image: url(https://www.pilldoctor.com.gh/wp-content/uploads/2020/09/ventolin_evohaler_100micrograms_-_200_actuations-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+#ventolin-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+    
+.ventolin-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+    .ventolin-button:hover {
+        background-color: #E5CB9F;
+    }
+
+
+
+
+
+#epi-box {
+    display: flex;
+    position: relative;
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    border: 2px solid  black;
+    border-radius: 15px;
+}
+
+.epi-header {
+        position: absolute;
+        font-family: 'Courier New';
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 35px;
+        top: -30px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        text-indent: 10px;
+    }
+
+#epi-pic {
+        display: flex;
+        background-image: url(http://www.trussvilletribune.com/wp-content/uploads/2017/04/epipen-master.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        height: 200px;
+        width: 80%;
+        border-radius: 5%;
+        box-shadow: 1px 1px 2px #3e2e20;
+    }
+    
+#epi-desc {
+        position: absolute;
+        background-color: black;
+        height: 90px;
+        font-size: 15px;
+        color: white;
+        top: 237px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
+.epi-button {
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 20px;
+        width: 50%;
+        height: 40px;
+        bottom: 5px;
+        left: 25%;
+        font-family: 'Brush Script MT ';
+    }
+
+.epi-button:hover {
+        background-color: #E5CB9F;
+    }
+
+
