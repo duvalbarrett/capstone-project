@@ -8,9 +8,13 @@ Drug Medications is a drug treatment medication website created to allow users t
 
 ## Tech Used
 • HTML
+
 •CSS
+
 •JavaScript
+
 •Axios
+
 
 
 ## How to Use
