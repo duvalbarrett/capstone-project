@@ -47,10 +47,9 @@ Drug Medications is a drug treatment medication website created to allow users t
 
 <img width="1440" alt="Screen Shot 2022-05-10 at 6 10 45 PM" src="https://user-images.githubusercontent.com/97458251/167731038-7837c63b-e091-4ad1-9bc7-9d2f5555cada.png">
 
-
 ![Screen Shot 2022-05-10 at 1 35 30 PM](https://user-images.githubusercontent.com/97458251/167692607-870a9aae-3936-44f5-afca-e7bbb3c83904.png)
 
-![Screen Shot 2022-05-10 at 1 35 39 PM](https://user-images.githubusercontent.com/97458251/167694209-66c46b5d-20e6-442f-943e-a7fe2beab0f7.png)
+
 
 
 
