@@ -3,7 +3,6 @@ const adderallButton = document.querySelector('.adderall-button');
 const ritalinButton = document.querySelector('.ritalin-button');
 const lexaproButton = document.querySelector('.lexapro-button');
 
-
 const baseURL = 'http://localhost:4400'
 
 
@@ -68,3 +67,4 @@ ritalinButton.addEventListener('click', () => {
 lexaproButton.addEventListener('click', () => {
     lexaproDesc()
 })
+
