@@ -6,7 +6,8 @@ Duval Barrett
 ## Description
 Drug Medications is a drug treatment medication website created to allow users to be able to view the most common drug medication treatments that are prescribed to people. There are so many different medications with complicated names, Drug Medications is a great website for individuals to see and find the most common medication treatments for mental health, heart, and lung medications. This app was made with Javascript, HTML, and CSS.
 
-Technology Used
+## Technology Used
+
 • HTML
 
 •CSS
