@@ -15,13 +15,6 @@ Technology Used
 
 •Axios
 
-## Javascript/HTML
-
-<img width="634" alt="Screen Shot 2022-05-10 at 2 23 44 PM" src="https://user-images.githubusercontent.com/97458251/167696895-a637f38f-2343-4ac8-805e-e85a0d4e2132.png">
-<img width="815" alt="Screen Shot 2022-05-10 at 2 22 53 PM" src="https://user-images.githubusercontent.com/97458251/167696897-50c64c24-cb1f-4398-8d84-5c60bdedc736.png">
-
-
-
 
 ## How to Use
 • Navigate to Drug Medications Homepage
@@ -29,6 +22,17 @@ Technology Used
 • User can select Drug Medications based on category or can view all drug medications
 
 • User can view a brief description of each drug medication by clicking ‘Description” to see what the drug is for, how it is administered, and  the side effects of the drug
+
+
+## HTML
+
+<img width="634" alt="Screen Shot 2022-05-10 at 2 23 44 PM" src="https://user-images.githubusercontent.com/97458251/167696895-a637f38f-2343-4ac8-805e-e85a0d4e2132.png">
+
+
+## Javascript
+
+<img width="815" alt="Screen Shot 2022-05-10 at 2 22 53 PM" src="https://user-images.githubusercontent.com/97458251/167696897-50c64c24-cb1f-4398-8d84-5c60bdedc736.png">
+
 
 
 
