@@ -51,8 +51,8 @@ Drug Medications is a drug treatment medication website created to allow users t
 ## Links
 • Video Presentation - 
 
-• GitHub Link - https://github.com/duvalbarrett/capstone-project
+• GitHub - https://github.com/duvalbarrett/capstone-project
 
-• Developer's LinkedIn - https://www.linkedin.com/in/duval-b-349619231/
+• LinkedIn - https://www.linkedin.com/in/duval-b-349619231/
 
 
